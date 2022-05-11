@@ -1,0 +1,44 @@
+<div class="first container-fluid">
+  <h1>{{Content}}</h1>
+  <ng-template [ngIf]="Content==='Activity'">
+      <h3>User abc reacted</h3>
+      <h3>User abc mentioned you</h3>
+      <h3>Call from user abc</h3>
+  </ng-template>
+  <ng-template [ngIf]="Content==='Chat'">
+    <dl>
+      <dt>User abc</dt>
+      <dd>Good Morning</dd>
+    </dl>
+    <dl>
+      <dt>User xyz</dt>
+      <dd>How r u</dd>
+    </dl>
+    <dl>
+      <dt>User Ashiyana</dt>
+      <dd>Good Morning</dd>
+    </dl>
+  </ng-template>
+  <!--<ng-template [ngIf]="Content==='Teams'">
+    <h3>General</h3>
+    <h3>Angular_Batch_2022_2</h3>
+    <h3>CSS_Batch_2022_2</h3>
+    <h3>HTML_Batch_2022_2</h3>
+  </ng-template>-->
+  <ng-template [ngIf]="Content==='Calender'">
+    <h3>Daily Standup-Interns</h3>
+    <h3>Buddy Call</h3>
+
+  </ng-template>
+  <ng-template [ngIf]="Content==='Calls'">
+    <h3>abc</h3>
+    <h3>xyz</h3>
+    <h3>abcd</h3>
+  </ng-template>
+  <ng-template [ngIf]="Content==='Files'">
+    <h3>Team UI-angular.pdf</h3>
+    <h3>Team UI-angular.pdf</h3>
+    <h3>Team UI-angular.pdf</h3>
+  </ng-template>
+</div>
+<router-outlet></router-outlet>

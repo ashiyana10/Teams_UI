@@ -1,0 +1,7 @@
+<h1>Teams</h1>
+<div *ngFor="let user of users">
+  <a routerLink="{{user.title}}" routerLinkActive="active">{{user.title}}</a>
+
+</div>
+
+<router-outlet></router-outlet>

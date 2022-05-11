@@ -1,0 +1,34 @@
+.main{
+  background-color:#E5E4E2;
+  padding-left: 5px;
+  width: 100%;
+}
+.top{
+  padding-top: 15px;
+}
+h1 {
+  margin-top: 50px;
+  text-align: center;
+}
+h3 {
+
+  text-align: center;
+}
+img{
+  margin-left: 120px;
+}
+.bottom
+{
+  margin-left: 150px;
+  margin-top:80px;
+}
+.search{
+  bottom: 0px;
+  width: 70%;
+  height: 30px;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+
+  position: relative;
+}
